@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="../main.css">
+<body>
+    <header>
+        <h1>Interactive Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" id="menu1">Menu 1</a></li>
+            <li><a href="#" id="menu2">Menu 2</a></li>
+            <li><a href="#" id="menu3">Menu 3</a></li>
+        </ul>
+    </nav>
+    <div class="menu-content" id="menu1-content">
+        <p>This is the content for Menu 1.</p>
+    </div>
+    <div class="menu-content" id="menu2-content">
+        <p>This is the content for Menu 2.</p>
+    </div>
+    <div class="menu-content" id="menu3-content">
+        <p>This is the content for Menu 3.</p>
+    </div>
+    <div class="form-container"> 
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Your Nme">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="xyz@gmil.com">
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <div class="content" id="dynamic-content">
+        <p>Dynamic content will be updated here.</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
